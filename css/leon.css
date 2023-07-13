@@ -49,6 +49,23 @@ body {
 }
 
 /* End global rules */
+.arrow {
+    padding: 15px 15px 10px;
+    position: fixed;
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: #EBECED;
+    right: 2%;
+    bottom: 3%;
+    /* background-color: var(--secondary-color); */
+    transition: .3s;
+    z-index: 1;
+}
+
+.arrow:hover {
+    background-color: var(--secondary-color);
+    color: #EBECED;
+}
 
 /* Start Components */
 .special-heading {
